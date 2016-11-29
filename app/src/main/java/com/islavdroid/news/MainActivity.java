@@ -5,11 +5,9 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.islavdroid.news.model.ApiClient;
-import com.islavdroid.news.model.NewsCompany;
-import com.islavdroid.news.model.Source;
+import com.islavdroid.news.modelCompany.NewsCompany;
+import com.islavdroid.news.modelCompany.Source;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -30,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
 
         //подключаемся по url
-        final SourcePoint apiService = ApiClient.getNews().create(SourcePoint.class);
+        final NewsCompanyPoint apiService = ApiClient.getNews().create(NewsCompanyPoint.class);
         Call<NewsCompany> call =apiService.getCompany();
         call.enqueue(new Callback<NewsCompany>() {
             @Override

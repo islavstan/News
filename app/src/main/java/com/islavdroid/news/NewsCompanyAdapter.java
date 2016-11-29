@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.islavdroid.news.model.Source;
+import com.islavdroid.news.modelCompany.Source;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

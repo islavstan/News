@@ -1,4 +1,4 @@
-package com.islavdroid.news.model;
+package com.islavdroid.news.modelCompany;
 
 import com.google.gson.annotations.SerializedName;
 
