@@ -1,4 +1,4 @@
-package com.islavdroid.news;
+package com.islavdroid.news.point;
 
 import com.islavdroid.news.modelCompany.NewsCompany;
 import com.islavdroid.news.modelNews.News;

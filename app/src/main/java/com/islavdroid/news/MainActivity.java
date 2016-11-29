@@ -6,8 +6,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.islavdroid.news.adapters.NewsCompanyAdapter;
+import com.islavdroid.news.api.ApiClient;
 import com.islavdroid.news.modelCompany.NewsCompany;
 import com.islavdroid.news.modelCompany.Source;
+import com.islavdroid.news.point.NewsCompanyPoint;
 
 import java.util.List;
 

@@ -5,13 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.TextView;
 
 import com.islavdroid.news.adapters.NewsAdapter;
-import com.islavdroid.news.adapters.NewsCompanyAdapter;
-import com.islavdroid.news.modelCompany.NewsCompany;
+import com.islavdroid.news.api.ApiClient;
 import com.islavdroid.news.modelNews.Article;
 import com.islavdroid.news.modelNews.News;
+import com.islavdroid.news.point.NewsPoint;
 
 import java.util.List;
 

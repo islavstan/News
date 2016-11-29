@@ -1,4 +1,4 @@
-package com.islavdroid.news;
+package com.islavdroid.news.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
