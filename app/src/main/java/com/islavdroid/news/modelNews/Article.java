@@ -2,9 +2,7 @@ package com.islavdroid.news.modelNews;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by islav on 29.11.2016.
- */
+
 
 public class Article {
     @SerializedName("author")
@@ -20,4 +18,27 @@ public class Article {
     @SerializedName("urlToImage")
     String image;
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getPublishedAt() {
+        return publishedAt;
+    }
+
+    public String getImage() {
+        return image;
+    }
 }

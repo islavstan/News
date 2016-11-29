@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     style="@style/MyCardViewStyle"
     android:clickable="true"
-
+android:id="@+id/cardView"
     android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"

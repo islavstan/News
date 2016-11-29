@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.islavdroid.news.adapters.NewsCompanyAdapter;
 import com.islavdroid.news.modelCompany.NewsCompany;
 import com.islavdroid.news.modelCompany.Source;
 
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<NewsCompany> call, Response<NewsCompany> response) {
                 NewsCompany newsCompany =response.body();
                 List<Source> sourceList = newsCompany.getSourceList();
-                newsCompanyAdapter.addPokemonToList(sourceList);
+                newsCompanyAdapter.addCompanyToList(sourceList);
             }
 
             @Override
